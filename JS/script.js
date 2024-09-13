@@ -972,12 +972,13 @@
       // ========================= Header Sticky Js Start ==============
       $(window).on('scroll', function() {
         if ($(window).scrollTop() >= 260) {
-          $('.header').addClass('fixed-header');
-        }
-        else {
+            $('.header').addClass('fixed-header');
+            $('#fixed-header-image').fadeIn(); // Show the image
+        } else {
             $('.header').removeClass('fixed-header');
+            $('#fixed-header-image').fadeOut(); // Hide the image
         }
-      }); 
+    });    
       // ========================= Header Sticky Js End===================
   
   })(jQuery);
