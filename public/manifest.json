@@ -1,18 +1,19 @@
 {
-    "name": "Mushroom Market",
-    "short_name": "Mushroom Market",
-    "start_url": "/",
-    "display": "standalone",
-    "background_color": "#f0e68c",
-    "theme_color": "#5b8c5b",
-    "description": "Your one-stop shop for fresh and dried mushrooms.",
-    "id": "/",
-    "icons": [
-      {
-        "src": "Images/logo.png",
-        "sizes": "192x192",
-        "type": "image/png"
-      }
-    ]
-  }
-  
+  "name": "Mushroom Market",
+  "short_name": "Mushroom Market",
+  "start_url": "/",
+  "display": "fullscreen",  // Change from "standalone" to "fullscreen"
+  "background_color": "#f0e68c",
+  "theme_color": "#5b8c5b",
+  "description": "Your one-stop shop for fresh and dried mushrooms.",
+  "id": "/",
+  "icons": [
+    {
+      "src": "Images/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "orientation": "portrait",  // or "landscape" based on your design
+  "scope": "/"
+}
