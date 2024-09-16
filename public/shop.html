@@ -1955,18 +1955,7 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
   
       <script src="JS/script.js"></script>
-  
-      <script>
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', () => {
-                navigator.serviceWorker.register('/service-worker.js').then((registration) => {
-                    console.log('ServiceWorker registration successful:', registration);
-                }).catch((error) => {
-                    console.log('ServiceWorker registration failed:', error);
-                });
-            });
-        }
-        </script>
+
         
         <script>
           window.addEventListener("DOMContentLoaded", () => {
